@@ -18,8 +18,8 @@
     {!! Twitter::generate() !!}
     {!! JsonLd::generate() !!}
 
-    <link rel="icon" href="{{ url('favicon.ico?v=2') }}" type="image/x-icon"/>
-    <link rel="shortcut icon" href="{{ url('favicon.ico?v=2') }}" type="image/x-icon"/>
+    <link rel="icon" href="{{ url('favicon.ico') }}" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{{ url('favicon.ico') }}" type="image/x-icon"/>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"/>
 
