@@ -3,8 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <meta property="fb:app_id" content="{{ config('myboard.social_media.facebook.app_id') }}"/>
-    <meta name="facebook-domain-verification" content="{{ config('myboard.social_media.facebook.domain_verification') }}"/>
 
     @if(isset($exception))
         <title>
